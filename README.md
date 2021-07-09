@@ -1,7 +1,7 @@
 <h1 align="center">
   Online Quiz Application
 </h1>
-<img src="https://raw.githubusercontent.com/abishekvelavan/Online-quiz-application/main/quizoid%20logo%404x-8.png">
+<img style="display: block; margin-left: auto; margin-right: auto;width: 50%;" src="https://raw.githubusercontent.com/abishekvelavan/Online-quiz-application/main/quizoid%20logo%404x-8.png">
 Online gamified quiz application to improve knowledge with a gamified and fun experience
 
 <h3>

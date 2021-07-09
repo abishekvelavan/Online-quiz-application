@@ -1,9 +1,10 @@
 <h1 align="center">
   Online Quiz Application
 </h1>
-<img style="display: block; margin-left: auto; margin-right: auto;width: 50%;" src="https://raw.githubusercontent.com/abishekvelavan/Online-quiz-application/main/quizoid%20logo%404x-8.png">
+<p align=center>
+<img src="https://raw.githubusercontent.com/abishekvelavan/Online-quiz-application/main/quizoid%20logo%404x-8.png" width="60/" >
 Online gamified quiz application to improve knowledge with a gamified and fun experience
-
+</p>
 <h3>
   Authors:
   <a href="https://github.com/abishekvelavan">Abishek Velavan D</a>

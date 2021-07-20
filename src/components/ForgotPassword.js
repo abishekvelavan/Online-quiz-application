@@ -30,22 +30,22 @@ export default function ForgotPassword() {
 
     return (
         <>
-            <Card>
+        <img className="logo" alt="Social Vue" src="https://raw.githubusercontent.com/abishekvelavan/Online-quiz-application/main/quizoid%20logo%404x-8.png" />
+            <Card className="topcon">
                 <Card.Body class="container">
                     <h1>Password Reset</h1>
                     {error && <Alert variant="danger"> {error} </Alert>}
                     {message && <Alert variant="sucess"> {message} </Alert>}
-                    <img className="logo" alt="Social Vue" src="https://raw.githubusercontent.com/abishekvelavan/Online-quiz-application/main/quizoid%20logo%404x-8.png" />
                     <Form onSubmit={handleSubmit}>
                         <Form.Group id="email">
-                            <Form.Control type="email" ref={emailRef} required placeholder="Email"/>
+                            <Form.Control className="form-solo" type="email" ref={emailRef} required placeholder="Email"/>
                             </Form.Group>
                         <Button disabled={loading} className="btn" type="submit">
                             Reset Password
                         </Button>
                     </Form>
                     <div className="foot">
-                        <Link to="/login">Log In? </Link>
+                        <Link className="links" to="/login">Log In? </Link>
                     </div>
                     <div className="foot">
                         Need an account? <Link to="/signup" className="links">Sign Up</Link>

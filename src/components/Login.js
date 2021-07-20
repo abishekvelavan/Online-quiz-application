@@ -30,29 +30,28 @@ export default function Login() {
 
     return (
         <>
-            <Card>
+        <img className="logo" alt="Social Vue" src="https://raw.githubusercontent.com/abishekvelavan/Online-quiz-application/main/quizoid%20logo%404x-8.png" />
+            <Card className="topcon">
                 <Card.Body class="container">
                     <h1>Log In</h1>
                     {error && <Alert variant="danger"> {error} </Alert>}
-                    <img className="logo" alt="Social Vue" src="https://raw.githubusercontent.com/abishekvelavan/Online-quiz-application/main/quizoid%20logo%404x-8.png" />
                     <Form onSubmit={handleSubmit}>
                         <Form.Group id="email">
-                            <Form.Control type="email" ref={emailRef} required placeholder="Email"/>
+                            <Form.Control className="form-top" type="email" ref={emailRef} required placeholder="Email"/>
                             </Form.Group>
                             <Form.Group id="password">
-                                <Form.Control classNAme="input" type="password" ref={passwordRef} required placeholder="Password"/>
+                                <Form.Control className="form-end" size="lg" classNAme="input" type="password" ref={passwordRef} required placeholder="Password"/>
                             </Form.Group>
                         <Button disabled={loading} className="btn" type="submit">Log In</Button>
                     </Form>
                     <div className="foot">
-                        <Link to="/forgot-password">Forgot Password? </Link>
+                        <Link className="links" to="/forgot-password">Forgot Password? </Link>
                     </div>
                     <div className="foot">
                         Need an account? <Link to="/signup" className="links">Sign Up</Link>
                     </div>
                 </Card.Body>
             </Card>
-            
         </>      
     )
 }

@@ -32,7 +32,7 @@ export default function UpdateProfile() {
             promises.push(updatePassword(passwordRef.current.value))
         }
 
-        promises.all(promises).then(() => {
+        Promise.all(promises).then(() => {
             history.push('/')
         }).catch(() =>{
             setError('Failed to Update Account')
@@ -58,7 +58,7 @@ export default function UpdateProfile() {
                             <Form.Group id="confirmpassword">
                                 <Form.Control className="form-end" type="password" ref={confirmpasswordRef} placeholder="Confirm Password"/>
                             </Form.Group>
-                        <Button disabled={loading} className="btn" type="submit">Sign Up</Button>
+                        <Button disabled={loading} className="btn" type="submit">Update</Button>
                     </Form>
                     <div className="foot">
                         <Link to="/" className="links">Cancel</Link>

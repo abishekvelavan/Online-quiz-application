@@ -1,11 +1,10 @@
 import React, { useRef, useState } from 'react'
-import { Form, Button, Card, Alert } from "react-bootstrap"
+import { Form, Button, Card, Alert} from "react-bootstrap"
 import { useAuth } from '../contexts/AuthContexts'
 import './Sign_up.css'
 import {Link, useHistory} from 'react-router-dom'
 
-
-export default function Signup() {
+export default function Signup(){
     
     const emailRef = useRef()
     const passwordRef = useRef()
@@ -14,6 +13,7 @@ export default function Signup() {
     const [error, setError] = useState('')
     const [loading, setLoading] = useState(false)
     const history = useHistory()
+    
 
      async function handleSubmit(e) {
         e.preventDefault()
@@ -45,7 +45,11 @@ export default function Signup() {
                             <Form.Control className="form-top" type="email" ref={emailRef} required placeholder="Email"/>
                         </Form.Group>
                         <Form.Group id="password">
-                            <Form.Control className="form-mid" type="password" ref={passwordRef} required placeholder="Password"/>
+                            <Form.Control className="form-mid" type="password" ref={passwordRef} placeholder="Password"
+                            pattern="(?=.*\d)(?=.[a-z])(?=.[A-z]).{8,}"
+                            title="Must contain at least one number[0-9] and one uppercase[A-Z] and lowercase[a-b] letter,and atleast 8 or more character"
+                            required
+                            />
                         </Form.Group>
                         <Form.Group id="confirmpassword">
                             <Form.Control className="form-end" type="password" ref={confirmpasswordRef} required placeholder="Confirm Password"/>

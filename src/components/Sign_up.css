@@ -109,7 +109,7 @@ h1 {
     text-decoration: none;
     font-size: medium;
     padding: 16px;
-    border-radius: 50px;
+    border-radius: 0px;
     background: #7dced0;
     border: none;
     box-shadow: 0 8px 15px 0 rgba(99, 99, 1, .4);

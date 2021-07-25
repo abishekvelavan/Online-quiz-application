@@ -43,6 +43,7 @@ export default function UpdateProfile() {
 
     return (
         <>
+        
         <img className="logo" alt="Social Vue" src="https://raw.githubusercontent.com/abishekvelavan/Online-quiz-application/main/quizoid%20logo%404x-8.png" />
             <Card className="topcon">
                 <Card.Body className="container">

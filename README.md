@@ -2,7 +2,9 @@
   Online Quiz Application
 </h1>
 <p align=center>
+  <a href = "https://quizoid.netlify.app/">
 <img src="https://raw.githubusercontent.com/abishekvelavan/Online-quiz-application/main/quizoid%20logo%404x-8.png" width="90/" >
+    </a>
 </p>
 <h2 align=center>Online gamified quiz application to improve knowledge with a gamified and fun experience </h2>
 <h3>

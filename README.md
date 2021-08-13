@@ -15,16 +15,26 @@
 </h3>
 
 
-## 💻 Tech Stack
-- React.js
-- Javascript / Sass
-- Node.js
-- Auth0
-- MySQL
-- Java
-- Netlify (Hosting)
+## Tech Stack
 
+- <strong>React.js</strong> <br>
 
+## Dependency Bucket
+
+- <strong>Tailwind CSS</strong> - CSS Framework
+- <strong>Bootstrap</strong> - CSS Framework
+- <strong>Firebase Auth</strong> - Authorisation and Authentication <br>
+
+## Backend
+
+- <strong>Firebase</strong> <br>
+
+## API
+
+- <strong>Open Trivia DB (quiz)</strong> <br>
+
+## Find the app <a href="https://quizoid.netlify.app">here</a> <br>
 
 > ## Live as if you were to die tomorrow. Learn as if you were to live forever
+>
 > ### - Mahatma Gandhi

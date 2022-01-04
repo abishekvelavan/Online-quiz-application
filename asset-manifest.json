@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.8e8a6afb.chunk.css",
-    "main.js": "/static/js/main.6e7c37dc.chunk.js",
-    "main.js.map": "/static/js/main.6e7c37dc.chunk.js.map",
+    "main.js": "/static/js/main.5857c1ba.chunk.js",
+    "main.js.map": "/static/js/main.5857c1ba.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.810764e0.js",
     "runtime-main.js.map": "/static/js/runtime-main.810764e0.js.map",
     "static/css/2.f6c4b6a0.chunk.css": "/static/css/2.f6c4b6a0.chunk.css",
@@ -15,6 +15,7 @@
     "static/media/0.90e80a2a.jpeg": "/static/media/0.90e80a2a.jpeg",
     "static/media/2.c50765dc.jpeg": "/static/media/2.c50765dc.jpeg",
     "static/media/3.aa365591.jpeg": "/static/media/3.aa365591.jpeg",
+    "static/media/404.f321b545.png": "/static/media/404.f321b545.png",
     "static/media/Home.css": "/static/media/mob_11zon.fc8a0eb8.jpg",
     "static/media/logo.1cc4200c.svg": "/static/media/logo.1cc4200c.svg",
     "static/media/logo1.fecffba1.svg": "/static/media/logo1.fecffba1.svg",
@@ -25,6 +26,6 @@
     "static/css/2.f6c4b6a0.chunk.css",
     "static/js/2.40641b07.chunk.js",
     "static/css/main.8e8a6afb.chunk.css",
-    "static/js/main.6e7c37dc.chunk.js"
+    "static/js/main.5857c1ba.chunk.js"
   ]
 }
